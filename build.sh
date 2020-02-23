@@ -5,6 +5,7 @@ C_COMPILER="gcc"
 CXX_COMPILER="g++"
 
 ## BUILD ##
+autoreconf -i
 PKG_CONFIG_PATH=/opt/aria2/build_libs/lib/pkgconfig/ \
 LD_LIBRARY_PATH=/opt/aria2/build_libs/lib/ \
 CC="$C_COMPILER" \
